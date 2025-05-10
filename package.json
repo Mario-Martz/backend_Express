@@ -1,0 +1,28 @@
+{
+  "name": "curso_express",
+  "version": "1.0.0",
+  "description": "backend con express",
+  "keywords": [
+    "express",
+    "backend",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/Mario-Martz/backend_Express#readme",
+  "bugs": {
+    "url": "https://github.com/Mario-Martz/backend_Express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mario-Martz/backend_Express.git"
+  },
+  "license": "MIT",
+  "author": "Mario Martinez",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
