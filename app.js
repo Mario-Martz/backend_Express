@@ -6,7 +6,7 @@ const fs = require('fs'); //Modulo para trabajar con archivos des de Node Js Fil
 
 const path = require('path');//ruta de los archivos des de los que vamos a acceder
 
-
+const UsersFilePath = path.join(__dirname, 'users.json'); //Establecemos la ruta con la que trabajaremos para simular una base de datos
 
 const PORT= process.env.PORT || 3000; //establecemos la varible de entrono que escuche en el puerto, de lo contrario usara 3000
 
